@@ -3,15 +3,20 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    .row.justify-content-between.mb-5
+      .col-lg-6
+        .titulo-sexto.color-acento-botones(data-aos='fade-right')
+          h3.mb-0 Gestión de analítica de datos
+          br
+          span Síntesis: análisis y conocimiento de datos enfocada a la analítica
+      .col-lg-1: img(src='@/assets/curso/temas/sintesis/sena.svg', alt='')
+    p.mb-5(data-aos='fade-right') En el siguiente mapa conceptual se podrán visualizar los principales conceptos trabajados con respecto al análisis de datos para analítica:
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

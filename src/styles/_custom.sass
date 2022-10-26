@@ -3,12 +3,18 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    right: 75%
+    width: 200px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 41%
+    right: 15%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 40%
 
 
 @keyframes float1
@@ -17,3 +23,35 @@
 
   100%
     transform: translateY(0px)
+
+.tarjeta-titulo
+  min-width: 210px
+  &__titulo
+    padding: 1rem .5rem
+    border-radius: 0 0 1rem 1rem
+    width: 100%
+.acordion__activo
+  background-color: #fff7de !important
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  background-color: #d2f3f8
+.linea-tiempo-d__item__content__slot
+  background-color: #d2f3f8
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #d2f3f8
+.text-sistem
+  h1, h2, h3, h4, h5, h6, span, i, li
+    color: $color-sistema-texto !important
+.img-infografica-b__modal
+  background-color: rgba(0, 0, 0, 0.2)
+.tarjeta--azul2
+  background-color: #bddcf6
+.box-shadow 
+  box-shadow: 10px 10px 35px -27px rgba(0,0,0,0.75)
+.slyder-100
+  .horizontal-scroll
+    align-items: normal !important
+
+  

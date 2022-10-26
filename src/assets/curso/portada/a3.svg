@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78.958" height="78.984" viewBox="0 0 78.958 78.984">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.784" y1="0.994" x2="0.398" y2="0.026" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1c646e"/>
+      <stop offset="0.006" stop-color="#0e4e68"/>
+      <stop offset="1" stop-color="#25afc1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.931" y1="0.991" x2="0.397" y2="0.019" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0e4e68"/>
+      <stop offset="0.006" stop-color="#1c646e"/>
+      <stop offset="1" stop-color="#25afc1"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.494" cy="0.242" r="3.244" gradientTransform="translate(0 0.129) scale(1 0.467)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#51eefe"/>
+      <stop offset="0.049" stop-color="#50e8f9"/>
+      <stop offset="0.994" stop-color="#357a92"/>
+      <stop offset="1" stop-color="#357a92"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.494" cy="0.242" r="3.965" gradientTransform="translate(0 0.159) scale(1 0.344)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#51eefe"/>
+      <stop offset="0.994" stop-color="#357a92"/>
+      <stop offset="1" stop-color="#357a92"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-3" x1="0.996" y1="0.991" x2="-0.144" y2="0.279" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0e4e68"/>
+      <stop offset="0" stop-color="#1c646e"/>
+      <stop offset="1" stop-color="#25afc1"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-3" cx="0.494" cy="0.242" r="5.375" gradientTransform="matrix(1, 0, 0, 0.284, 0, 0.173)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-4" cx="0.5" cy="0.5" r="30.323" gradientTransform="translate(0.494) scale(0.012 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#81a4b3"/>
+      <stop offset="1" stop-color="#5c8da6"/>
+    </radialGradient>
+  </defs>
+  <g id="a3" transform="translate(-523.83 -285.755)">
+    <path id="Path_197789" data-name="Path 197789" d="M540.674,316.331l-3.212,2.129-12.549,24.655h4.665l1.419,20.7h4.058Z" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    <path id="Path_197790" data-name="Path 197790" d="M562.852,299.292l-3.021,1.572L547.288,325.99h4.467l1.908,37.829h3.568Z" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+    <path id="Path_197791" data-name="Path 197791" d="M535.054,363.819l-1.434-22.211h-4.042l11.1-25.277,11.1,25.277h-4.816l-1.743,22.211Z" fill-rule="evenodd" fill="url(#radial-gradient)"/>
+    <path id="Path_197792" data-name="Path 197792" d="M557.231,363.819l-1.434-39.25h-4.042l11.1-25.277,11.1,25.277H569.83l-2.44,39.25Z" fill-rule="evenodd" fill="url(#radial-gradient-2)"/>
+    <path id="Path_197793" data-name="Path 197793" d="M588.394,285.755l-5.606,3.47-10.25,23.941H577.3l.824,50.652h4.652Z" fill-rule="evenodd" fill="url(#linear-gradient-3)"/>
+    <path id="Path_197794" data-name="Path 197794" d="M582.774,363.819l-1.434-52.787H577.3l11.1-25.277,11.1,25.277h-4.118l-2.44,52.787Z" fill-rule="evenodd" fill="url(#radial-gradient-3)"/>
+    <rect id="Rectangle_43875" data-name="Rectangle 43875" width="78.958" height="0.921" transform="translate(523.83 363.819)" fill="url(#radial-gradient-4)"/>
+  </g>
+</svg>
