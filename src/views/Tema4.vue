@@ -68,7 +68,7 @@
               br
               span Fuente de datos Power BI
             img(src='@/assets/curso/temas/tema4/4.png', alt='').m-auto(style="width: 457px")
-        .row(titulo="MS-Excel")
+        .row(titulo="Microsoft Excel")
           .col-md-6.mb-4.mb-md-0
             p Entre las opciones de fuentes de datos, está MS-Excel.
               br

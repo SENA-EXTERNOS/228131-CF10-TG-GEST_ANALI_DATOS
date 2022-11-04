@@ -125,7 +125,7 @@
                     p.mb-0 #[em Binglint:] 8 Bytes.
             .tarjeta-titulo(style="background-color: #fff7e0").m-2
               .tarjeta-titulo__titulo(style="background-color: #feca2e")
-                h4.text-center.mb-0 
+                h4.text-center.mb-0 Punto flotante
               .tarjeta-titulo__contenido.p-3
                 ul.lista-ul
                   li
@@ -276,7 +276,7 @@
             br
             |Lo importante es definir la necesidad para saber si lo que se requiere es modelar procesos en áreas que aún no se integran al ecosistema o definir qué otros procesos de reportes faltan, por ejemplo, los que se deben generar para aprovechar mejor el flujo de datos disponibles en las bodegas de datos.
           p.text-small(numero="3" titulo="Recursos económicos disponibles ") Si bien la transformación digital implica una ganancia de dinero, esta curva no se empieza a ver de manera inmediata. Es importante tener mediciones claras de indicadores concretos y recursos invertidos a lo largo del tiempo; solo de esta manera es posible visualizar el ahorro y ganancias que las empresas experimentan. En este sentido, aunque la inversión inicial es alta luego se compensa con la línea de costos hasta sobrepasarla y generar más ganancias.
-          p.text-small(numero="4" titulo="Conocimiento técnico y apoyo en estrategias de transformación digital ") En el caso de que no sea una empresa relacionada con las tecnologías, no es rentable contratar un equipo de trabajo en tecnología, la mejor alternativa es contratar una empresa que realice estos desarrollos en modalidad outsourcing, sin embargo, es muy importante que desde la empresa se cuente con un experto en tecnología y que represente los intereses de la organización; este profesional, debe describir clara y técnicamente los requisitos y el apoyo de desarrollo que demandan las necesidades de la empresa.
+          p.text-small(numero="4" titulo="Conocimiento técnico y apoyo en estrategias de transformación digital ") En el caso de que no sea una empresa relacionada con las tecnologías, no es rentable contratar un equipo de trabajo en tecnología, la mejor alternativa es contratar una empresa que realice estos desarrollos en modalidad #[em outsourcing], sin embargo, es muy importante que desde la empresa se cuente con un experto en tecnología y que represente los intereses de la organización; este profesional, debe describir clara y técnicamente los requisitos y el apoyo de desarrollo que demandan las necesidades de la empresa.
           p.text-small(numero="5" titulo="Definir infraestructura digital actual y acceder a los datos que se generan ") Un aspecto muy importante, es evaluar y entender la infraestructura tecnológica que se ha venido usando, se deben realizar las gestiones administrativas y técnicas para tener acceso a los datos generados. Si es un proveedor de #[em software], realizar las gestiones ante terceros, como revisión de contratos y normatividad vigente para exigirle a estos que faciliten los datos de la organización.
           p.text-small(numero="6" titulo="Definir arquitectura local, nube o híbrida") Este es un aspecto importante ya que en él se define la arquitectura tecnológica y de esto dependen los recursos requeridos para su desarrollo. 
             br

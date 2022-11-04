@@ -13,13 +13,13 @@
       SlyderA(tipo='b')
         .row.px-3
           .col-md-4.mb-4.mb-md-0
-            p El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre #[b Confiables]
+            p El objetivo final de los datos es brindar conocimiento del negocio, de una manera técnica y fiel a la realidad, en una palabra, los reportes deben ser siempre #[b CONFIABLES]
           .col-md-8
             figure
               img(src='@/assets/curso/temas/tema2/2.png', alt='Texto que describa la imagen')
         .row.px-3
           .col-md-4.mb-4.mb-md-0
-            p Una unidad diminuta, equivalente a elementos microscópicos en medio de los océanos de información es un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b Fecha de nacimiento])
+            p Una unidad diminuta, equivalente a elementos microscópicos en medio de los océanos de información es un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b FECHA DE NACIMIENTO])
           .col-md-8
             figure
               img(src='@/assets/curso/temas/tema2/3.png', alt='Texto que describa la imagen')
@@ -102,6 +102,11 @@
                 i.fas.fa-angle-right
                 | Precisión
       .col-lg-5.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/7.png', alt='')
+    p.mb-5(data-aos='fade-right') Para una resolución integral del problema de calidad de datos, es necesario realizar un análisis de cada parámetro, lo que permitirá resolver todas las dudas que existen en el proceso y con ello reducir el riesgo de falla del proceso.
+      br
+      br
+      |En la siguiente infografía podrá apreciar de manera más gráfica las diez dimensiones medibles que definen la calidad de los datos o Data Quality.
+
     p.mb-5(data-aos='fade-right') A continuación, se presenta la descripción de las diez dimensiones medibles que definen la calidad de los datos o #[em Data Quality:]
     .row.justify-content-center.mb-5
       .col-lg-10
