@@ -30,7 +30,7 @@
       SlyderA(tipo='b')
         .row.px-3
           .col-md-6.mb-4.mb-md-0
-            h4 Características de la Estadística :
+            h4 Cuenta de datos financieros y de consumo:
             p Para todo negocio es importante tener en cuenta datos financieros y de consumo.
               br
               br
@@ -59,7 +59,7 @@
               img(src='@/assets/curso/temas/tema3/5.svg', alt='Texto que describa la imagen')
         .row.px-3
           .col-md-6.mb-4.mb-md-0
-            h4 Cuenta de datos financieros y de consumo:
+            h4 Características de la Estadística: 
             p Además, existen indicadores propios de las organizaciones, tales como la medición de desempeño de los colaboradores en áreas específicas, validación de datos financieros, análisis de los tiempos de procesos, comparación de sedes, definición de conocimiento específico y general del negocio.
               br
               br
@@ -67,7 +67,7 @@
             ul.lista-ul
               li.mb-0
                 i.fas.fa-angle-right
-                | Objetivo y preguntas
+                | Objetivo y pregunta
               li.mb-0
                 i.fas.fa-angle-right
                 | Recopilación de los datos
