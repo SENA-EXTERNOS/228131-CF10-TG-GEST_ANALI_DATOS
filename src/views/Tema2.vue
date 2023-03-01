@@ -19,13 +19,13 @@
               img(src='@/assets/curso/temas/tema2/2.png', alt='Texto que describa la imagen')
         .row.px-3
           .col-md-4.mb-4.mb-md-0
-            p Una unidad diminuta, equivalente a elementos microscópicos en medio de los océanos de información es un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b FECHA DE NACIMIENTO])
+            p Una unidad diminuta, equivalente a elementos microscópicos en medio de los océanos de información, es un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b FECHA DE NACIMIENTO])
           .col-md-8
             figure
               img(src='@/assets/curso/temas/tema2/3.png', alt='Texto que describa la imagen')
         .row.px-3
           .col-md-4.mb-4.mb-md-0
-            p La colección de estos registros diversos debe tener desde el momento de capturar los datos una programación de validación que garantice que el registro de datos tenga aspectos como: 
+            p La colección de estos diversos registros, debe tener desde el momento de capturar los datos, una programación de validación que garantice que el registro de datos tenga aspectos como:
             ul.lista-ul
               li
                 i.fas.fa-angle-right
@@ -52,11 +52,11 @@
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/6.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            h4 Inconvenientes derivados de mala calidad de los datos:
+            h4 Inconvenientes derivados de mala calidad de los datos
+            br
             p.mb-0 Cuando los sistemas de información no son capaces de digitalizar eficaz y eficientemente la realidad del negocio, capturándola con el nivel adecuado de detalle necesario, almacenar dichos datos garantizando que no se produzcan pérdidas sintácticas ni semánticas, procesarlos de acuerdo con las reglas de negocio o mostrar los resultados de los análisis a los usuarios, entonces se producen “no-conformidades” en el ciclo de vida de los datos. (Velthuis, 2019)
-    Separador
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.1  Dimensiones de la calidad de los datos
+    br
+    h2 Dimensiones de la calidad de los datos
     .row.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right")
         p Se puede definir, que el conjunto de datos presenta calidad en los datos si cumplen las siguientes seis dimensiones:
@@ -65,25 +65,25 @@
             ul.lista-ul
               li
                 i.fas.fa-angle-right
-                | Exactitud
+                | Exactitud.
               li
                 i.fas.fa-angle-right
-                | Completitud
+                | Completitud.
               li
                 i.fas.fa-angle-right
-                | Consistencia
+                | Consistencia.
           .col-lg-4
             ul.lista-ul
               li
                 i.fas.fa-angle-right
-                | Singularidad
+                | Singularidad.
               li
                 i.fas.fa-angle-right
-                | Disponibilidad
+                | Disponibilidad.
               li
                 i.fas.fa-angle-right
-                | Validez
-        p Sin embargo, esta clasificación no está universalmente aceptada. En este componente formativo se adicionarán cuatro dimensiones #[em Data Quality] más: 
+                | Validez.
+        p Sin embargo, esta clasificación no está universalmente aceptada. En este componente formativo se adicionan cuatro dimensiones #[em Data Quality] más: 
         .row.mb-5
           .col-lg-4
             ul.lista-ul
@@ -103,16 +103,11 @@
                 | Precisión
       .col-lg-5.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/7.png', alt='')
     p.mb-5(data-aos='fade-right') Para una resolución integral del problema de calidad de datos, es necesario realizar un análisis de cada parámetro, lo que permitirá resolver todas las dudas que existen en el proceso y con ello reducir el riesgo de falla del proceso.
-      br
-      br
-      |En la siguiente infografía podrá apreciar de manera más gráfica las diez dimensiones medibles que definen la calidad de los datos o Data Quality.
 
-    p.mb-5(data-aos='fade-right') A continuación, se presenta la descripción de las diez dimensiones medibles que definen la calidad de los datos o #[em Data Quality:]
+    p.mb-5(data-aos='fade-right') En la siguiente infografía podrá apreciar de manera más gráfica, las diez dimensiones medibles que definen la calidad de los datos o <i>Data Quality</i>.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 4
-          span Criterios de #[em data quality] 
+
         ImagenInfograficaB.color-secundario.mb-5
           template(v-slot:imagen)
             figure
@@ -134,7 +129,7 @@
                     li
                       i.fas.fa-angle-right
                       | Medición a través de referencias ya establecidas. Uso de herramientas que a partir de referencias compara los valores a evaluar.
-          .tarjeta(x="0%" y="32%" tooltip="tooltip de max 35 caracteres" numero="" style="background-color: #fff7e0")
+          .tarjeta(x="0%" y="32%" tooltip="" numero="" style="background-color: #fff7e0")
             .row.justify-content-center
                 .col-lg-1(style="background-color: #4dbfe1; border-radius: 20px 0 0 20px")
                   img.mt-4(src='@/assets/curso/temas/tema2/10.svg', alt='' style="width: 130px").m-auto
@@ -153,7 +148,7 @@
                       li
                         i.fas.fa-angle-right
                         | Comprobación de integridad: ejemplo de truncamiento de datos (datos que existían y luego desaparecieron); es posible que los valores se trunquen durante la carga. Esto sucede a menudo si las variables de proceso de ETL (extraer, transformar, cargar) no están definidas correctamente.
-          .tarjeta(x="0%" y="45%" tooltip="tooltip de max 35 caracteres" numero="" style="background-color: #fff7e0")
+          .tarjeta(x="0%" y="45%" tooltip="" numero="" style="background-color: #fff7e0")
             .row.justify-content-center
                 .col-lg-1(style="background-color: #67b7fa; border-radius: 20px 0 0 20px")
                   img.mt-4(src='@/assets/curso/temas/tema2/11.svg', alt='' style="width: 130px").m-auto
@@ -173,7 +168,7 @@
                       li
                         i.fas.fa-angle-right
                         p.mb-0 Coherencia de datos entre sistemas: cuando hay datos de referencia se espera uniformidad en la representación, por ejemplo, campo SEXO, se espera un dato de hombre, mujer o desconocido. En algunas tablas aparece como M, F, O, en otras tablas como Masculino, Femenino, Desconocido y en otras como #[em Male, Female, Unknows], etc. Es importante unificar o conciliar todos los sistemas.
-          .tarjeta(x="0%" y="58%" tooltip="tooltip de max 35 caracteres" numero="" style="background-color: #fff7e0")
+          .tarjeta(x="0%" y="58%" tooltip="" numero="" style="background-color: #fff7e0")
             .row.justify-content-center
                 .col-lg-1(style="background-color: #1c3da3; border-radius: 20px 0 0 20px")
                   img.mt-4(src='@/assets/curso/temas/tema2/12.svg', alt='' style="width: 130px").m-auto
@@ -190,7 +185,7 @@
                       li
                         i.fas.fa-angle-right
                         | No deberían existir datos duplicados, dado que esto genera conteos o reportes erróneos.
-          .tarjeta(x="0%" y="71%" tooltip="tooltip de max 35 caracteres" numero="" style="background-color: #fff7e0")
+          .tarjeta(x="0%" y="71%" tooltip="" numero="" style="background-color: #fff7e0")
             .row.justify-content-center
                 .col-lg-1(style="background-color: #0f2771; border-radius: 20px 0 0 20px")
                   img.mt-4(src='@/assets/curso/temas/tema2/13.svg', alt='' style="width: 130px").m-auto
@@ -210,7 +205,7 @@
                       li
                         i.fas.fa-angle-right
                         | Secuencias inválidas. Por ejemplo, una fecha de entrega no puede ser válida si es un momento antes de la fecha de pedido.
-          .tarjeta(x="100%" y="19%" tooltip="tooltip de max 35 caracteres" numero="" style="background-color: #fff7e0")
+          .tarjeta(x="100%" y="19%" tooltip="" numero="" style="background-color: #fff7e0")
             .row.justify-content-center
               .col-lg-11.text-sistem
                 .p-4
@@ -227,7 +222,7 @@
                       | Retraso de tiempo en sistemas de tiempo real: en decisiones automatizadas para subir o bajar precios, estas acciones se toman en microsegundos. Si hay un retraso en la disponibilidad de datos, la competencia tendrá una ventaja sobre ellos. Incluso si los datos son precisos, tendrían poca calidad de puntualidad.
               .col-lg-1(style="background-color: #54d0e0; border-radius: 0 20px 20px 0")
                 img.mt-4(src='@/assets/curso/temas/tema2/14.svg', alt='' style="width: 130px").m-auto
-          .tarjeta(x="100%" y="32%" tooltip="tooltip de max 35 caracteres" numero="" style="background-color: #fff7e0")
+          .tarjeta(x="100%" y="32%" tooltip="" numero="" style="background-color: #fff7e0")
             .row.justify-content-center
                 .col-lg-11.text-sistem
                   .p-4
@@ -238,7 +233,7 @@
                         | Se refiere a los estados del mundo real frente al estado capturado en los datos. Si los estados no se actualizan, los datos pierden calidad. Por ejemplo, una dirección cambiada: Si un cliente actualiza su dirección, los datos registrados pierden vigencia.
                 .col-lg-1(style="background-color: #4dbfe1; border-radius: 0 20px 20px 0")
                   img.mt-4(src='@/assets/curso/temas/tema2/15.svg', alt='' style="width: 130px").m-auto
-          .tarjeta(x="100%" y="45%" tooltip="tooltip de max 35 caracteres" numero="" style="background-color: #fff7e0")
+          .tarjeta(x="100%" y="45%" tooltip="" numero="" style="background-color: #fff7e0")
             .row.justify-content-center
                 .col-lg-11.text-sistem
                   .p-4
@@ -255,7 +250,7 @@
                         | Conformidad del tipo de datos: se espera que el monto de ventas esté en formato numérico entero. Pero en alguna tabla se muestra como flotante y en otra como moneda.
                 .col-lg-1(style="background-color: #67b7fa; border-radius: 0 20px 20px 0")
                   img.mt-4(src='@/assets/curso/temas/tema2/16.svg', alt='' style="width: 130px").m-auto
-          .tarjeta(x="100%" y="58%" tooltip="tooltip de max 35 caracteres" numero="" style="background-color: #fff7e0")
+          .tarjeta(x="100%" y="58%" tooltip="" numero="" style="background-color: #fff7e0")
             .row.justify-content-center
                 .col-lg-11.text-sistem
                   .p-4
@@ -272,7 +267,7 @@
                         | Cardinalidad integridad: no debe existir entre tablas del sistema, relación de muchos a muchos. Ni tampoco uno a uno. (Bases de datos normalizadas).
                 .col-lg-1(style="background-color: #1c3da3; border-radius: 0 20px 20px 0")
                   img.mt-4(src='@/assets/curso/temas/tema2/17.svg', alt='' style="width: 130px").m-auto
-          .tarjeta(x="100%" y="71%" tooltip="tooltip de max 35 caracteres" numero="" style="background-color: #fff7e0")
+          .tarjeta(x="100%" y="71%" tooltip="" numero="" style="background-color: #fff7e0")
             .row.justify-content-center
                 .col-lg-11.text-sistem
                   .p-4
@@ -292,9 +287,8 @@
                         | Precisión de granularidad: A primera vista, la granularidad no parece de precisión. Para algunas operaciones, los datos agregados o resumidos no son útiles. Si desea pagar la comisión de cada vendedor en función de su venta personal, necesitará su número de ventas individual.
                 .col-lg-1(style="background-color: #0f2771; border-radius: 0 20px 20px 0")
                   img.mt-4(src='@/assets/curso/temas/tema2/18.svg', alt='' style="width: 130px").m-auto
-    Separador
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.2  Datos maestros (Master Data)
+    
+    h2.mb-5 Datos maestros (Master Data)
     .row.justify-content-center.mb-5
       .col-lg-2.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/19.svg', alt='')
       .col-lg-10(data-aos="fade-left"): p Master Data es una arquitectura para administrar, centralizar, organizar, clasificar, localizar, sincronizar y enriquecer los datos según las reglas de negocio. 
@@ -304,7 +298,8 @@
       .col-lg-7(data-aos="fade-right")
         p La gestión de datos maestros apoya reportes de negocio mediante la ubicación exacta, vinculación y propiedades de entidades y de la información a través de productos, clientes, tiendas, ciudades, empleados, proveedores, activos digitales, y más.
         .cajon.color-acento-botones.p-4.mb-4(style="background-color: #fff2ca")
-          p.mb-0 MDM es un habilitador clave para proporcionar una vista única y confiable de la información empresarial crítica. Las fuentes de datos confiables ayudan a reducir los costos de integración de aplicaciones, mejoran la experiencia del cliente y generan información analítica accionable. (Stibo system MDM, 2019) Una solución de MDM procura superar algunos desafíos comunes en las organizaciones como:
+          p MDM es un habilitador clave para proporcionar una vista única y confiable de la información empresarial crítica. Las fuentes de datos confiables ayudan a reducir los costos de integración de aplicaciones, mejoran la experiencia del cliente y generan información analítica accionable. (Stibo System MDM, 2019) 
+          p Una solución de MDM procura superar algunos desafíos comunes en las organizaciones como:
         ul.lista-ul
           li
             i.fas.fa-angle-right
@@ -319,8 +314,9 @@
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 5
-          span Características de MDM
+          h5 Figura 1
+          p.mb-0
+            em Características de MDM
         img(src='@/assets/curso/temas/tema2/21.svg', alt='')
 
 

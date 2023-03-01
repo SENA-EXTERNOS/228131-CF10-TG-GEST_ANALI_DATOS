@@ -40,42 +40,14 @@ export default {
         numero: '1',
         titulo: 'Los datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Tipos de datos',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Ecosistemas de datos',
-            hash: 't_1_2',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Calidad de los datos <em> (Quality data)</em>',
+        titulo: 'Calidad de los datos <em>(Quality data) </em>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Dimensiones de la calidad de los datos',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Datos maestros <em>(Master Data)</em>',
-            hash: 't_2_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -83,26 +55,6 @@ export default {
         numero: '3',
         titulo: 'Arquitectura analítica de datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Conceptos básicos estadísticos',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Modelos matemáticos',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Gestión de datos',
-            hash: 't_3_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
@@ -110,26 +62,6 @@ export default {
         numero: '4',
         titulo: 'Generalidades: Herramienta inteligencia de negocio',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Instalación',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Reportes <em> (Data Source)</em>',
-            hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Desarrollo y representación gráfica de datos',
-            hash: 't_4_3',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -174,53 +106,53 @@ export default {
   },
   complementario: [
     {
-      tema: 'Aspectos a tener en cuenta sobre los ecosistemas de datos.',
+      tema: 'Los datos',
       referencia:
-        'IBM Services (2022). <em>Servicios y consultoría.</em> IBM Services.',
-      tipo: 'Servicios empresariales',
+        'IBM Services. (2022).<i> Servicios y consultoría.</i> IBM Services.',
+      tipo: 'Página web',
       link: 'https://www.ibm.com/co-es/services',
     },
     {
-      tema: 'Aspectos a tener en cuenta sobre los ecosistemas de datos.',
+      tema: 'Los datos',
       referencia:
-        'Microsoft 365 (2021). <em> Portafolio de servicios de Microsoft 365</em>. Microsoft.',
+        'Microsoft 365. (2021). <i>Portafolio de servicios de Microsoft 365.</i> Microsoft.',
       tipo: 'Portafolio de servicios',
       link: 'https://goo.su/rfbWJ',
     },
     {
-      tema: 'Aspectos a tener en cuenta sobre los ecosistemas de datos.',
+      tema: 'Los datos',
       referencia:
-        'AWS Educación (2020) <em>Informática en la nube con AWS.</em> AWS.',
-      tipo: 'Manual Computación en la nube de AWS',
+        'AWS Educación. (2020). <i>Informática en la nube con AWS.</i> AWS.',
+      tipo: 'Página web',
       link: 'https://aws.amazon.com/es/what-is-aws/?nc2=h_ql_le_int',
     },
     {
-      tema: 'Aspectos a tener en cuenta sobre los ecosistemas de datos.',
+      tema: 'Generalidades: herramienta inteligencia de negocio',
       referencia:
-        'Google (2022) <em> Google Workspace. Características Google Workspace.</em> Google Workspace.',
+        'Google. (2022).<i> Google Workspace. Características Google Workspace.</i>',
       tipo: 'Portafolio de servicios',
       link: 'https://workspace.google.com/intl/es-419/features/',
     },
     {
-      tema: 'Inconvenientes derivados de mala calidad de los datos.',
+      tema: 'Los datos',
       referencia:
-        'Greenfield, D. (2022) Cinco causas de la mala calidad de los datos. Boletín Mundo PMMI.',
-      tipo: 'Documento web',
+        'Greenfield, D. (2022) <i>Cinco causas de la mala calidad de los datos.</i> Boletín Mundo PMMI.',
+      tipo: 'Artículo',
       link:
         'https://www.mundopmmi.com/automatizacion/adquisicion-de-datos/article/22018270/cinco-causas-de-la-mala-calidad-de-los-datos',
     },
     {
       tema: 'Conceptos básicos estadísticos.',
       referencia:
-        'SENA. [Ecosistema de Recursos Educativos Digitales SENA] (2022). <em>Herramientas de información estadística básica</em> [Video]. Youtube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022).<i> Herramientas de información estadística básica</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/AW1LM-d0YWE',
     },
     {
       tema: 'Generalidades: Herramientas de inteligencia de negocio',
       referencia:
-        'Makesoft Technologies (2017) <em> Power BI Desktop: Tutoriales y Manuales en español.</em> Makesoft Technologies.',
-      tipo: 'Tutorial Power BI',
+        'Makesoft Technologies. (2017).<i> Power BI Desktop: Tutoriales y Manuales en español.</i> Makesoft Technologies.',
+      tipo: 'Página web',
       link:
         'https://www.makesoft.es/power-bi-desktop-tutoriales-y-manuales-en-espanol/',
     },
@@ -229,12 +161,12 @@ export default {
     {
       termino: 'Atributos de entidades',
       significado:
-        'las entidades se refieren a los objetos o hechos de datos en un sistema (ejemplo, clientes, ventas, etc.) y los atributos a sus características (ejemplo, edad, nombre, fecha)',
+        'las entidades se refieren a los objetos o hechos de datos en un sistema (ejemplo, clientes, ventas, etc.) y los atributos a sus características (ejemplo, edad, nombre, fecha).',
     },
     {
       termino: '<em>Bits</em> ',
       significado:
-        'es la unidad mínima de información, desde el punto de vista digital, es lo equivalente al átomo en la biología. Solo puede albergar dos datos posibles: 0 o 1',
+        'es la unidad mínima de información, desde el punto de vista digital, es lo equivalente al átomo en la biología. Solo puede albergar dos datos posibles: 0 o 1.',
     },
     {
       termino: '<em>Bytes</em>',
@@ -252,7 +184,7 @@ export default {
         'tableros que representan datos e informes. Representan en una sola vista simple una cantidad importante de datos; la idea es visualizar de manera fácil datos complejos que vienen desde los sistemas de información.',
     },
     {
-      termino: '<em>Focus groups</em>',
+      termino: '<em>Focus group</em>',
       significado:
         'método para la investigación o estadística cualitativa, que consiste en reunir un grupo de personas para una entrevista, donde se expresan percepciones y opiniones de productos o servicios. Esto sirve como estudio para las marcas y productos.',
     },
@@ -262,7 +194,7 @@ export default {
         'se refiere a la resolución o detalle de los datos, el mejor ejemplo de granularidad es la referencia a los datos; se puede granular por año, por semestre, trimestre, mes, semana, día u horas.',
     },
     {
-      termino: 'Reglas de negocio ',
+      termino: 'Reglas de negocio',
       significado:
         'en el desarrollo de sistemas de información se refiere a las condiciones particulares y el comportamiento que deben asumir los algoritmos programados, para que los resultados sean los esperados por el proceso o negocio.',
     },
@@ -280,17 +212,17 @@ export default {
   referencias: [
     {
       referencia:
-        'Banco de la República de Colombia. (julio de 2022). Inflación total y meta. Estadísticas Banco de la República.',
+        'Banco de la República de Colombia. (2022). <i>Inflación total y meta.</i> Estadísticas Banco de la República. ',
       link: 'https://www.banrep.gov.co/es/estadisticas/inflacion-total-y-meta',
     },
     {
       referencia:
-        'Gawande, S. (2020). 6 Dimensions of Data Quality, Examples, and Measurement. iCEDQ Torana INC.',
+        'Gawande, S. (2020). <i>6 Dimensions of Data Quality, Examples, and Measurement. </i>iCEDQ Torana INC.',
       link: 'https://icedq.com/6-data-quality-dimensions',
     },
     {
       referencia:
-        'Greenfield, D. (25 de enero de 2022). Cinco causas de la mala calidad de los datos. Mundo PMMI.',
+        'Greenfield, D. (2022). <i>Cinco causas de la mala calidad de los datos.</i> Mundo PMMI.',
       link:
         'https://www.mundopmmi.com/automatizacion/adquisicion-de-datos/article/22018270/cinco-causas-de-la-mala-calidad-de-los-datos',
     },
@@ -302,13 +234,13 @@ export default {
     },
     {
       referencia:
-        'RSM. (11 de agosto de 2020). Generación de valor desde los ecosistemas digitales. RSM Global.',
+        'RSM. (12020). <i>Generación de valor desde los ecosistemas digitales.</i> RSM Global.',
       link:
         'https://www.rsm.global/colombia/es/ideas/consulting-insights/generacion-de-valor-desde-los-ecosistemas-digitales ',
     },
     {
       referencia:
-        'Stibo Systems. (octubre de 2019). ¿Qué es la gestión de datos? Stibo Systems Master Data Management.',
+        'Stibo Systems. (2019).<i> ¿Qué es la gestión de datos?</i> Stibo Systems Master Data Management.',
       link: 'https://www.stibosystems.com/es/what-is-master-data-management ',
     },
     {
@@ -317,7 +249,7 @@ export default {
     },
     {
       referencia:
-        'Way2net. (13 de noviembre de 2021). Estadísticas de Redes Sociales en Colombia 2021. Agencia de Marketing Digital Way2net.',
+        'Way2net. (2021). <i>Estadísticas de Redes Sociales en Colombia 2021.</i> Agencia de Marketing Digital Way2net.',
       link:
         'https://www.way2net.com/2021/11/estadisticas-de-redes-sociales-en-colombia-2021/ ',
     },

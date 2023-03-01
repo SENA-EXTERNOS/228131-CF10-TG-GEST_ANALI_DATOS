@@ -3,14 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.justify-content-between.mb-5
-      .col-lg-6
-        .titulo-sexto.color-acento-botones(data-aos='fade-right')
-          h3.mb-0 Gestión de analítica de datos
-          br
-          span Síntesis: análisis y conocimiento de datos enfocada a la analítica
-      .col-lg-1: img(src='@/assets/curso/temas/sintesis/sena.svg', alt='')
-    p.mb-5(data-aos='fade-right') En el siguiente mapa conceptual se podrán visualizar los principales conceptos trabajados con respecto al análisis de datos para analítica:
+    p.mb-5(data-aos='fade-right') El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
