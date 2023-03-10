@@ -44,7 +44,7 @@
     h2.mb-5 Reportes #[em (Data Source)]
     .row.justify-content-center.mb-5
       .col-lg-2.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/2.svg', alt='')
-      .col-lg-10(data-aos="fade-left"): p Este tipo de aplicaciones pueden ser muy fáciles y básicas, aunque también se podrán desarrollar dashboard tan complejos y robustos según el nivel de conocimiento de las herramientas. 
+      .col-lg-10(data-aos="fade-left"): p Este tipo de aplicaciones pueden ser muy fáciles y básicas, aunque también se podrán desarrollar <i>dashboard</i> tan complejos y robustos según el nivel de conocimiento de las herramientas. 
         br
         br
         |En este apartado, se tratarán los reportes de manera resumida:

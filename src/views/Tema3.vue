@@ -12,7 +12,7 @@
     .row.justify-content-center.mb-5
       .col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/1.png', alt='')
       .col-lg-6
-        p Si bien se habla de tecnología y datos, el primero (el desarrollo de software) se enfoca en solucionar tareas de los procesos del negocio, es un sistema transaccional y la arquitectura tanto de procesos como de almacenamiento y diseño de las colecciones de datos, enmarca una diferencia. Esta situación ha provocado en algunos casos un divorcio entre los programas de cómputo ya desarrollados y los sistemas de inteligencia de negocio y analítica, implicando gastos adicionales para las empresas en la integración, corrección y convalidación de datos entre varios sistemas de cómputo.
+        p Si bien se habla de tecnología y datos, el primero (el desarrollo de <i>software</i>) se enfoca en solucionar tareas de los procesos del negocio, es un sistema transaccional y la arquitectura tanto de procesos como de almacenamiento y diseño de las colecciones de datos, enmarca una diferencia. Esta situación ha provocado en algunos casos un divorcio entre los programas de cómputo ya desarrollados y los sistemas de inteligencia de negocio y analítica, implicando gastos adicionales para las empresas en la integración, corrección y convalidación de datos entre varios sistemas de cómputo.
         .cajon.color-acento-botones.p-4.mb-4(style="background-color: #fff2ca")
           p.mb-0 Antes de entrar a la explicación técnica es importante mencionar algunos conceptos teóricos, fundamentados en la estadística y las matemáticas, para luego aplicar la analítica de datos.
     
@@ -56,7 +56,7 @@
               img(src='@/assets/curso/temas/tema3/5-.svg', alt='Texto que describa la imagen')
         .row.px-3
           .col-md-6.mb-4.mb-md-0
-            h4 Características de la Estadística
+            h4 Características de la estadística
             p Además, existen indicadores propios de las organizaciones, tales como la medición de desempeño de los colaboradores en áreas específicas, validación de datos financieros, análisis de los tiempos de procesos, comparación de sedes, definición de conocimiento específico y general del negocio.
               br
               br
@@ -93,9 +93,7 @@
           div(titulo="Recopilación de los datos")
             p Según la necesidad objetivo del ejercicio estadístico, es necesario identificar si existe o diseñar, la herramienta o instrumento para la recopilación De los datos. Verificar si los sistemas de información tienen los datos requeridos, implementar encuestas, o métodos de observación sistemática.
           div(titulo="Procesar los datos")
-            p Cuándo se tenga los datos recopilados de manera sistemática, es importante tener claridad de qué hacer con ellos. Tener los datos no responde las preguntas requeridas si el proceso no está claro. Es fundamental interpretar y entender los datos para definir las fórmulas matemáticas y las mediciones para aplicar las operaciones a  estos datos. Siendo las operaciones estadísticas más comunes y simples: Promedios, sumas, conteos, segmentación, porcentajes, variables, tiempo, etc.
-          div(titulo="Procesar los datos")
-            p Cuándo se tenga los datos recopilados de manera sistemática, es importante tener claridad de qué hacer con ellos. Tener los datos no responde las preguntas requeridas si el proceso no está claro. Es fundamental interpretar y entender los datos para definir las fórmulas matemáticas y las mediciones para aplicar las operaciones a  estos datos. Siendo las operaciones estadísticas más comunes y simples: Promedios, sumas, conteos, segmentación, porcentajes, variables, tiempo, etc.
+            p Cuando se tengan los datos recopilados de manera sistémica, es importante tener claridad de qué hacer con ellos. Tener los datos no responde las preguntas requeridas si el proceso no está claro. Es fundamental interpretar y entender los datos para definir las fórmulas matemáticas y las mediciones para aplicar las operaciones a estos datos, siendo las operaciones estadísticas más comunes y simples: promedios, sumas, conteos, segmentación, porcentajes, variables, tiempo, etc.
           div(titulo="Presentar los datos")
             p Presentar la información de manera amigable y fácil de entender, qué muestre con claridad las dimensiones de las medidas y las comparaciones, así como los puntos de referencia para poder determinar con claridad las cifras y su significado. La presentación de los datos se realiza a través de gráficos, tablas con varias dimensiones, medidas y segmentación.
           div(titulo="Analizar los datos")
@@ -107,8 +105,8 @@
       .col-lg-8(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 9
-          br
-          span Componentes de la estadística 
+          p.mb-0
+            em Componentes de la estadística 
         img(src='@/assets/curso/temas/tema3/8.svg', alt='')
     h3 Tipos de estadística
     .row.justify-content-center.mb-5
@@ -130,7 +128,7 @@
       SlyderA(tipo='b')
         .row.px-3
           .col-md-6.mb-4.mb-md-0
-            h4 Muestra Adecuada:
+            h4 Muestra adecuada:
             p Este tipo de estadística se aplica cuando la población o el universo objeto de estudio es muy grande e imposible de aplicar estadística descriptiva o aplicar instrumento a todo, o cuando no hay exactitud del número de población o universo. 
               br
               br
@@ -140,7 +138,7 @@
               |Es importante no establecer divorcios entre la estadística descriptiva y la inferencial, pues la inferencial usa los datos descriptivos para llevar a conclusiones generales.
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema3/10.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/10-.svg', alt='Texto que describa la imagen')
         .row.px-3
           .col-md-6.mb-4.mb-md-0
             h4 Ejemplos de algunos usos de la estadística inferencial
@@ -263,7 +261,7 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul2")
           div(titulo="<em>[Qué] registrar hechos.</em>")
             p.mb-0 Todas las áreas deben registrar las tareas o acciones (compras, terminación de tareas, visitas, publicación de anuncios, etc.).
-          div(titulo="<em>[Cuándo] registrar momentos.</em>")
+          div(titulo="<em>[Cuándo] Registrar momentos.</em>")
             p.mb-0 Una de las características de la analítica es llevar una historia, no es posible que exista una historia si no hay fechas. Es importante determinar las fechas de cada hecho.
           div(titulo="<em>[Quién] Registrar responsable.</em>")
             p.mb-0 Cada tarea deberá tener un responsable, más cuando hay tareas entre diferentes áreas, de esta manera es posible identificar quién o en dónde se encuentran los embudos en los diferentes procesos del negocio.
@@ -291,7 +289,7 @@
     .row.justify-content-center.mb-5
       .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/22.svg', alt='')
       .col-lg-8(data-aos="fade-left")
-        p El objetivo es que todos los datos recolectados, copiados y optimizados, sean consumidos por el nivel de decisión, que no necesariamente son los gerentes, los empleados también deben acceder a sus gestiones y resultados en gráficos y dashboards que den cuenta de su propio rendimiento; esto permite una autoevaluación y la toma de decisiones sobre sus propias funciones en la empresa.
+        p El objetivo es que todos los datos recolectados, copiados y optimizados, sean consumidos por el nivel de decisión, que no necesariamente son los gerentes, los empleados también deben acceder a sus gestiones y resultados en gráficos y <i>dashboards</i> que den cuenta de su propio rendimiento; esto permite una autoevaluación y la toma de decisiones sobre sus propias funciones en la empresa.
           br
           br
           |En términos generales, la gerencia ya no tendrá que llamar a los líderes de cada proceso para que le den explicación sobre diferentes situaciones ya que tendrá acceso a las cifras en sus teléfonos celulares, en cualquier lugar y a cualquier hora. Lo que permite tener empresas más eficientes, con capacidad de reaccionar más pronto y tomar mejores decisiones.

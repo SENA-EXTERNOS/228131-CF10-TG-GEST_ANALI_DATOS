@@ -19,7 +19,7 @@
               img(src='@/assets/curso/temas/tema2/2.png', alt='Texto que describa la imagen')
         .row.px-3
           .col-md-4.mb-4.mb-md-0
-            p Una unidad diminuta, equivalente a elementos microscópicos en medio de los océanos de información, es un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b FECHA DE NACIMIENTO])
+            p Una unidad diminuta, equivalente a elementos microscópicos en medio de los océanos de información, es un único registro, en uno de los campos, de alguna tabla que componga el sistema (por ejemplo, #[b FECHA DE NACIMIENTO.])
           .col-md-8
             figure
               img(src='@/assets/curso/temas/tema2/3.png', alt='Texto que describa la imagen')

@@ -72,7 +72,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="zoom-in")
         .cajon.color-acento-botones.p-4.mb-4(style="background-color: #fff2ca ")
-          p.mb-0 En conclusión, los datos no son un asunto nuevo, sino que surgen a partir de la misma evolución humana, en donde se van volviendo complejos y amplios, conforme avanzan las civilizaciones. Es por esto por lo que en el ámbito digital y tecnológico actual. se convierten en un asunto de estudio profundo y técnico, pues el desarrollo humano y productivo tiene como plataforma principal el uso de los datos que constituyen la información; así mismo esta se convierte en conocimiento, el cual es el componente principal para la toma acciones, las cuales a su vez, generan nueva información.
+          p.mb-0 En conclusión, los datos no son un asunto nuevo, sino que surgen a partir de la misma evolución humana, en donde se van volviendo complejos y amplios, conforme avanzan las civilizaciones. Es por esto por lo que en el ámbito digital y tecnológico actual, se convierten en un asunto de estudio profundo y técnico, pues el desarrollo humano y productivo tiene como plataforma principal el uso de los datos que constituyen la información; así mismo esta se convierte en conocimiento, el cual es el componente principal para la toma acciones, las cuales a su vez, generan nueva información.
 
     h2 Tipos de datos
     .row.justify-content-center.mb-5
@@ -86,7 +86,7 @@
       SlyderA(tipo='b')
         .row
           .col-md-6.mb-4.mb-md-0
-            p En un nivel inferior de la máquina los compiladores o procesamientos de datos se reservan una cantidad de bits, según el tipo de datos que se seleccionen; por esto, no solo es importante identificar la naturaleza de los datos a almacenar, sean números, fechas, texto, etc., sino también determinar qué tantos recursos emplea cada tipo de datos desde el punto de vista de memoria, pues de esto también depende la velocidad y agilidad de procesamiento.
+            p En un nivel inferior de la máquina los compiladores o procesamientos de datos se reservan una cantidad de <i>bits</i>, según el tipo de datos que se seleccionen; por esto, no solo es importante identificar la naturaleza de los datos a almacenar, sean números, fechas, texto, etc., sino también determinar qué tantos recursos emplea cada tipo de datos desde el punto de vista de memoria, pues de esto también depende la velocidad y agilidad de procesamiento.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/5.png', alt='Texto que describa la imagen')
@@ -171,10 +171,7 @@
                     p.mb-0 #[em Datatime:] 8 byte.
         div
           h4 Tabla tipos de datos
-          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Tabla 1
-            span Tipos de datos
-          img(src='@/assets/curso/temas/tema1/6-.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/6.svg', alt='')
         .row
           .col-md-6.mb-4.mb-md-0
             p Si bien este componente formativo no está orientado al diseño de base de datos o programación, se debe tener claridad acerca de los tipos de datos, sus rangos y usos; esto es fundamental al momento de planificar la gestión de datos y la modelación de la información orientada a la analítica.

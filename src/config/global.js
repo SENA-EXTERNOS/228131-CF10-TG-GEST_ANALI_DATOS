@@ -115,13 +115,6 @@ export default {
     {
       tema: 'Los datos',
       referencia:
-        'Microsoft 365. (2021). <i>Portafolio de servicios de Microsoft 365.</i> Microsoft.',
-      tipo: 'Portafolio de servicios',
-      link: 'https://goo.su/rfbWJ',
-    },
-    {
-      tema: 'Los datos',
-      referencia:
         'AWS Educación. (2020). <i>Informática en la nube con AWS.</i> AWS.',
       tipo: 'Página web',
       link: 'https://aws.amazon.com/es/what-is-aws/?nc2=h_ql_le_int',
@@ -171,7 +164,7 @@ export default {
     {
       termino: '<em>Bytes</em>',
       significado:
-        'es el equivalente a una palabra, en términos digitales un byte equivale a 8 bits.',
+        'es el equivalente a una palabra, en términos digitales un byte equivale a 8 <i>bits.</i>',
     },
     {
       termino: 'Convalidación de datos      ',
@@ -228,7 +221,7 @@ export default {
     },
     {
       referencia:
-        'Microsoft. (2022). Tipos de datos y funciones. Documentación de SQL.',
+        'Microsoft. (2022). <i>Tipos de datos y funciones. Documentación de SQL.</i>',
       link:
         'https://docs.microsoft.com/es-es/sql/t-sql/functions/date-and-time-data-types-and-functions-transact-sql?view=sql-server-ver16 ',
     },
@@ -244,8 +237,9 @@ export default {
       link: 'https://www.stibosystems.com/es/what-is-master-data-management ',
     },
     {
-      referencia: 'Velthuis, M. P. (2019). Calidad de datos. Ediciones de la U',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9094 ',
+      referencia:
+        'Velthuis, M. P. (2019). <i>Calidad de datos.</i> Ediciones de la U',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9094',
     },
     {
       referencia:
