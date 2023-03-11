@@ -60,7 +60,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Generalidades: Herramienta inteligencia de negocio',
+        titulo: 'Generalidades: herramienta inteligencia de negocio',
         desarrolloContenidos: true,
       },
     ],
@@ -182,7 +182,7 @@ export default {
         'método para la investigación o estadística cualitativa, que consiste en reunir un grupo de personas para una entrevista, donde se expresan percepciones y opiniones de productos o servicios. Esto sirve como estudio para las marcas y productos.',
     },
     {
-      termino: '<em>Granularidad</em>',
+      termino: 'Granularidad',
       significado:
         'se refiere a la resolución o detalle de los datos, el mejor ejemplo de granularidad es la referencia a los datos; se puede granular por año, por semestre, trimestre, mes, semana, día u horas.',
     },

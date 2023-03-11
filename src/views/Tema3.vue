@@ -104,7 +104,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 9
+          h5 Figura 2
           p.mb-0
             em Componentes de la estadística 
         img(src='@/assets/curso/temas/tema3/8.svg', alt='')
