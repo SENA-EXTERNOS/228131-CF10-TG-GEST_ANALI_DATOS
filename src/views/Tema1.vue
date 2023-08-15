@@ -20,7 +20,7 @@
             p.mb-0 Bajo este contexto es importante recordar la diferencia entre datos e información.
               br
               br
-              |Para entender esta diferencia, se puede partir del ejemplo de cuando las civilizaciones descubren mensajes de humanos antiguos y no tienen ninguna forma de interpretar los mensajes; ante ojos no entrenados, lo encontrado no son más más que símbolos con valor artístico y, a pesar de tener la cognición antropológica respecto a que los mensajes representan cosas, estos realmente serían solo datos (símbolos) sin información (no interpretados).
+              |Para entender esta diferencia, se puede partir del ejemplo de cuando las civilizaciones descubren mensajes de humanos antiguos y no tienen ninguna forma de interpretar los mensajes; ante ojos no entrenados, lo encontrado no son mas que símbolos con valor artístico y, a pesar de tener la cognición antropológica respecto a que los mensajes representan cosas, estos realmente serían solo datos (símbolos) sin información (no interpretados).
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       span Evolución de los datos e información. 
     ImagenInfografica.color-acento-botones.mb-5

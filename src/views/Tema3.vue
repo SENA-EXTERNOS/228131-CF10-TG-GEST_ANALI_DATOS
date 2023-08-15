@@ -91,7 +91,7 @@
           div(titulo="Objetivo y preguntas")
             p Para empezar a hacer uso de la estadística, es fundamental definir la intencionalidad de lo que se desea saber, comprobar o medir. En otras palabras, definir con claridad las preguntas que se desean responder.
           div(titulo="Recopilación de los datos")
-            p Según la necesidad objetivo del ejercicio estadístico, es necesario identificar si existe o diseñar, la herramienta o instrumento para la recopilación De los datos. Verificar si los sistemas de información tienen los datos requeridos, implementar encuestas, o métodos de observación sistemática.
+            p Según la necesidad objetiva del ejercicio estadístico, es necesario identificar si existe o diseñar, la herramienta o instrumento para la recopilación De los datos. Verificar si los sistemas de información tienen los datos requeridos, implementar encuestas, o métodos de observación sistemática.
           div(titulo="Procesar los datos")
             p Cuando se tengan los datos recopilados de manera sistémica, es importante tener claridad de qué hacer con ellos. Tener los datos no responde las preguntas requeridas si el proceso no está claro. Es fundamental interpretar y entender los datos para definir las fórmulas matemáticas y las mediciones para aplicar las operaciones a estos datos, siendo las operaciones estadísticas más comunes y simples: promedios, sumas, conteos, segmentación, porcentajes, variables, tiempo, etc.
           div(titulo="Presentar los datos")
@@ -267,7 +267,7 @@
             p.mb-0 Cada tarea deberá tener un responsable, más cuando hay tareas entre diferentes áreas, de esta manera es posible identificar quién o en dónde se encuentran los embudos en los diferentes procesos del negocio.
           div(titulo="<em>[Cuánto] Registrar cantidades.</em>")
             p.mb-0 La mayoría de los hechos, contienen un número que acompaña las características; ejemplo, una venta tiene detalles como cantidad de elementos y un monto de dinero, estas cifras siempre deberán registrarse; en otras tareas, como por ejemplo aprobar una solicitud, donde no hay un monto numérico sí contiene un estado, por lo que también se deben registrar los estados de estas tareas.
-          div(titulo="<em>[A quien o de quién] registrar clientes o proveedores</em>")
+          div(titulo="<em>[A quién o de quién] registrar clientes o proveedores</em>")
             p.mb-0 Cada hecho o acción debe tener un cliente como si bien puede ser externo como a las ventas también podría ser interno, por ejemplo, la aprobación de presupuesto, el cliente interno sería la dirección responsable de lo financiero; todos los hechos deben tener a quien o para quien se le hace la acción.
       .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/20.png', alt='')
     p.mb-5(data-aos='fade-right') No basta con tener registrados estos cinco mínimos componentes de las tareas más relevantes para que los datos muestren una radiografía clara sobre cada proceso. Además, es importante tener claridad sobre la calidad de los datos para que se puedan integrar y tener plena confianza. 
