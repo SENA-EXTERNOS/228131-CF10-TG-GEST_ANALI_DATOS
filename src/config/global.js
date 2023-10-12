@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Análisis y conocimiento de datos enfocado a la analítica.',
+      'Análisis y conocimiento de datos enfocado a la analítica',
     descripcionCurso:
       'El recurso educativo presenta una introducción amplia y técnica sobre conceptos, teorías y herramientas empleadas en sistematización de datos. Se dan las pautas de las metodologías y paradigmas usados para la gestión de información, y la transformación y carga que deben realizarse con las tecnologías disponibles.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),

@@ -125,7 +125,7 @@
                 ul.lista-ul
                   li
                     i.fas.fa-angle-right
-                    p.mb-0 Decimal o Númerico.
+                    p.mb-0 Decimal o numérico.
                   li
                     i.fas.fa-angle-right
                     p.mb-0 #[em Real:] Bytes.
@@ -150,7 +150,7 @@
                 ul.lista-ul
                   li
                     i.fas.fa-angle-right
-                    p.mb-0 Alfanímerico (texto).
+                    p.mb-0 Alfanumérico (texto).
             .tarjeta-titulo(style="background-color: #fff7e0").m-2
               .tarjeta-titulo__titulo(style="background-color: #feca2e")
                 h4.text-center.mb-0 Hora y Fecha
@@ -168,7 +168,7 @@
                     p.mb-0 #[em Smalldatetime:] 4 bytes.
                   li
                     i.fas.fa-angle-right
-                    p.mb-0 #[em Datatime:] 8 byte.
+                    p.mb-0 #[em Datetime:] 8 byte.
         div
           h4 Tabla tipos de datos
           img(src='@/assets/curso/temas/tema1/6.svg', alt='')

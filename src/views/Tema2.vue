@@ -317,7 +317,7 @@
           h5 Figura 1
           p.mb-0
             em Características de MDM
-        img(src='@/assets/curso/temas/tema2/21.svg', alt='')
+        img(src='@/assets/curso/temas/tema2/21-.svg', alt='')
 
 
             
