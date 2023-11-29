@@ -63,7 +63,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               span Fuente de datos Power BI
-            img(src='@/assets/curso/temas/tema4/4.png', alt='').m-auto(style="width: 457px")
+            img(src='@/assets/curso/temas/tema4/1.png', alt='').m-auto(style="width: 457px")
         .row(titulo="Microsoft Excel")
           .col-md-6.mb-4.mb-md-0
             p Entre las opciones de fuentes de datos, está MS-Excel.
@@ -73,7 +73,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               span Hoja de Excel como tabla
-            img(src='@/assets/curso/temas/tema4/5.png', alt='').m-auto(style="width: 457px")
+            img(src='@/assets/curso/temas/tema4/22.png', alt='').m-auto(style="width: 457px")
         .row(titulo="Implementación")
           .col-md-6.mb-4.mb-md-0
             p Cuando se elige la tabla, se da clic en cargar y ya los datos estarán disponibles para empezar a desarrollar los reportes.
@@ -83,7 +83,7 @@
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               span Área de trabajo
-            img(src='@/assets/curso/temas/tema4/6.png', alt='').m-auto(style="width: 457px")
+            img(src='@/assets/curso/temas/tema4/3.png', alt='').m-auto(style="width: 457px")
 
     h2.mb-5 Desarrollo y representación gráfica de datos
     p.mb-5(data-aos='fade-right') Luego de tener la aplicación instalada y con la fuente de datos clara, lo que sigue es crear informes:
